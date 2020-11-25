@@ -23,10 +23,10 @@ def datumPostillion(txt):
         return str(txt)
     return None
 
-conn = sqlite3.connect('data/postillondata_clean.sqlite')
+conn = sqlite3.connect('./data/postillondata_clean.sqlite')
 cur = conn.cursor()
 
-conn2 = sqlite3.connect('data/postillondata.sqlite')
+conn2 = sqlite3.connect('./data/postillondata.sqlite')
 cur2 = conn2.cursor()
 
 sqlstr = 'SELECT url,Kategorie,Titel,Body,Datum FROM Links'

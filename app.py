@@ -158,7 +158,7 @@ className='row'),
         ],
     ),
 
-    dcc.Markdown('''**Imprint:**  [Dr. Andreas Stöckl](http://www.stoeckl.ai/impressum/)''')
+    dcc.Markdown('''**Imprint:**  [Joelle Helgert]](https://github.com/joellehelgert/Satire_Dashboard)''')
 ],  className='container')
 
 

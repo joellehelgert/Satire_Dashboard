@@ -15,7 +15,7 @@ from operator import itemgetter
 from datetime import datetime as dt
 
 personen = json.load(open("/app/data/personenliste_en_clean.json"))
-datumkompakt = json.load(open("/app/datumliste_en_clean.json"))
+datumkompakt = json.load(open("/app/data/datumliste_en_clean.json"))
 
 dict1 = personen
 personenliste = sorted(dict1.items(), key=itemgetter(1), reverse=True)

@@ -158,7 +158,7 @@ className='row'),
         ],
     ),
 
-    dcc.Markdown('''**Imprint:**  [Joelle Helgert]](https://github.com/joellehelgert/Satire_Dashboard)''')
+    dcc.Markdown('''**Imprint:**  [Joelle Helgert](https://github.com/joellehelgert/Satire_Dashboard)''')
 ],  className='container')
 
 
